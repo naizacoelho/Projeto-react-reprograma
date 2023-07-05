@@ -1,0 +1,15 @@
+.menuContainer{
+    display: flex;
+    background : #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 2rem;
+    list-style: none;    
+}
+
+.menuLink{
+    text-decoration: none;
+    color: #DB7093;
+    font-size: 1.5rem;
+}
