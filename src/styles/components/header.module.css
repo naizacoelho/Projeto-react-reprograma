@@ -1,19 +1,24 @@
 .headerContainer{
-    background-color: #FFE4B5;
+    background-image: url(../../assets/holografica.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 4rem;
     align-items: center;
-    padding: 6rem;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 
 .headerTitle{
     font-size: 4rem;
-    color: #fff;
+    color: #B873C4;
+    
 }
 
 .headerImage{
-    width: 40%;
+    width: 30%;
+    border-radius: 30px;
 }

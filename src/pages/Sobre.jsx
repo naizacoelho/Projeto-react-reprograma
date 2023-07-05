@@ -1,5 +1,5 @@
 import Header from "../componentes/Header"
-import sobre from '../assets/sobre.svg'
+import sobre from '../assets/avatar.jpg'
 
 const Sobre = () => {
     return (

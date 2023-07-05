@@ -2,7 +2,7 @@ import Header from '../componentes/Header'
 import home from '../assets/home.svg'
 import { SmileyWink, Code, AddressBook } from 'phosphor-react'
 import styles from '../styles/pages/home.module.css'
-import imagem from '../assets/bemvindo.gif'
+import imagem from '../assets/bem-vindes.png'
 
 
 const Home = () => {

@@ -5,14 +5,15 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+console.log(import.meta.env)
 const firebaseConfig = {
-  apiKey: "AIzaSyDI3qEK-mkpdGGE5hwjX9sGUvR_7ZzWQYw",
-  authDomain: "projeto-naizas15.firebaseapp.com",
-  projectId: "projeto-naizas15",
-  storageBucket: "projeto-naizas15.appspot.com",
-  messagingSenderId: "68087796541",
-  appId: "1:68087796541:web:5df170c8dcf37f2447eb54",
-databaseURL: "https://projeto-naizas15-default-rtdb.firebaseio.com/",
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MENSSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+databaseURL: import.meta.env.VITE_DATABASE_URL,
   
 };
 

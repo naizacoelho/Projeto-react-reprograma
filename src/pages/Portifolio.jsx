@@ -1,6 +1,6 @@
 import Header from "../componentes/Header"
 
-import portfolio from '../assets/portfolio.svg'
+import portfolio from '../assets/portifolio.png'
 
 const Portifolio = () => {
   return (

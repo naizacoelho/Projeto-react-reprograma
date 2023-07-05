@@ -1,5 +1,5 @@
 import Header from "../componentes/Header"
-import contato from "../assets/contato.svg"
+import contato from "../assets/kirby.jpg"
 import styles from "../styles/pages/contato.module.css"
 import { useState } from "react"
 import database from '../services/firebase'
