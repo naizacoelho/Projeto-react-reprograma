@@ -1,0 +1,30 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #EB9ECB;
+    border-radius: 20px;
+    padding: 1rem;
+    justify-content: center;
+    min-height: 150px;
+    color: #9400D3;
+}
+
+.cardContainer:hover {
+
+    background-color: #DB7093;
+    transition: 0.2s;
+}
+
+.portifolioContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+}

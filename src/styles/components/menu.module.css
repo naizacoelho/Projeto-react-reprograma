@@ -1,15 +1,58 @@
-.menuContainer{
+.menuContainer {
     display: flex;
-    background : #fff;
+    background: #fff;
     justify-content: center;
     align-items: center;
     gap: 10rem;
     padding: 2rem;
-    list-style: none;    
+    list-style: none;
 }
 
-.menuLink{
+.menuLink {
     text-decoration: none;
     color: #DB7093;
     font-size: 1.5rem;
+}
+
+.dropbtn {
+    background-color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #E8C4E9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdownContent a {
+    color: #DB7093;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dropdownContent a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: pink;
 }

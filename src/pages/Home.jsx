@@ -8,7 +8,7 @@ import imagem from '../assets/bem-vindes.png'
 const Home = () => {
   return (
     <>
-      <Header title="Site de Naíza" image={imagem}></Header>
+      <Header title="Meu site pessoal" image={imagem}></Header>
 
       <div className={styles.homeContainer}>
         <div className={styles.cardContainer}>
@@ -24,7 +24,7 @@ const Home = () => {
         <div className={styles.cardContainer}>
           <AddressBook size={150} color="#DB7093" weight='thin' />
           <h2 className={styles.cardTitle}>Contato</h2>
-          <p className={styles.cardDescription}>Entre em contato comigo. Seja para entrevistas de emprego como deva ou para trocarmos ideias sobre os estudos.</p>
+          <p className={styles.cardDescription}>Entre em contato comigo. Seja para entrevistas de emprego como dev ou para trocarmos ideias sobre os estudos.</p>
         </div>
       </div>
 

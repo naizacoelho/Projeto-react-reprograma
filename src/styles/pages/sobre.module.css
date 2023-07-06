@@ -1,0 +1,19 @@
+.sobreContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+
+}
+
+.sobreImage{
+    width: 20%;
+    border-radius: 20px;
+
+}
+
+.sobreText{
+    display: flex;
+    flex-direction: column;
+}
